@@ -1829,21 +1829,21 @@ containing a value of this type.
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020050;
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
-        public static final int black_circle_loading=0x7f020053;
-        public static final int girls=0x7f020054;
-        public static final int media_md=0x7f020055;
-        public static final int notification_action_background=0x7f020056;
-        public static final int notification_bg=0x7f020057;
-        public static final int notification_bg_low=0x7f020058;
-        public static final int notification_bg_low_normal=0x7f020059;
-        public static final int notification_bg_low_pressed=0x7f02005a;
-        public static final int notification_bg_normal=0x7f02005b;
-        public static final int notification_bg_normal_pressed=0x7f02005c;
-        public static final int notification_icon_background=0x7f02005d;
+        public static final int anim=0x7f020053;
+        public static final int media_md=0x7f020054;
+        public static final int notification_action_background=0x7f020055;
+        public static final int notification_bg=0x7f020056;
+        public static final int notification_bg_low=0x7f020057;
+        public static final int notification_bg_low_normal=0x7f020058;
+        public static final int notification_bg_low_pressed=0x7f020059;
+        public static final int notification_bg_normal=0x7f02005a;
+        public static final int notification_bg_normal_pressed=0x7f02005b;
+        public static final int notification_icon_background=0x7f02005c;
         public static final int notification_template_icon_bg=0x7f020062;
         public static final int notification_template_icon_low_bg=0x7f020063;
-        public static final int notification_tile_bg=0x7f02005e;
-        public static final int notify_panel_notification_icon_bg=0x7f02005f;
+        public static final int notification_tile_bg=0x7f02005d;
+        public static final int notify_panel_notification_icon_bg=0x7f02005e;
+        public static final int place=0x7f02005f;
         public static final int popular_movie_background=0x7f020060;
         public static final int sync_loading=0x7f020061;
     }
@@ -2030,6 +2030,7 @@ containing a value of this type.
     public static final class mipmap {
         public static final int girls=0x7f030000;
         public static final int ic_launcher=0x7f030001;
+        public static final int iconflick=0x7f030002;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f060000;

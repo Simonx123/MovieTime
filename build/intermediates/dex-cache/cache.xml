@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\sadedira\.android\build-cache\42540bd227b4815c7fde0ca114e04efabb3636cf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="C:\version-control2\FlickerMovies\app\build\intermediates\pre-dexed\debug\classes_b6f75db1ab9fbbb651684510b4d91e500ee479f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\sadedira\.android\build-cache\7de173a9ec1eabfdd87f8c94dfcfe539ed0c7c8b\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -111,6 +120,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\sadedira\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="C:\version-control2\FlickerMovies\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_94ad85024b59d77d786399d789c5df279f989f41.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\sadedira\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
         jumboMode="false"
         optimize="true"
@@ -169,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9ceddc9e9952d9ccd6a982e14f46b257a3ebaf4c">
+        sha1="50cb8499f16731057b018b36c5e57380d0062be8">
         <dex dex="C:\version-control2\FlickerMovies\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d2b7a06f18f05a08fabb786d0f8d2bd53335143c\classes.dex" />
     </item>
     <item

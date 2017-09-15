@@ -35,7 +35,7 @@ MERGED from [com.android.support:support-compat:25.1.1] C:\Users\sadedira\.andro
 	android:allowBackup
 		ADDED from C:\version-control2\FlickerMovies\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from C:\version-control2\FlickerMovies\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\version-control2\FlickerMovies\app\src\main\AndroidManifest.xml:7:9-41
 	android:theme
 		ADDED from C:\version-control2\FlickerMovies\app\src\main\AndroidManifest.xml:10:9-40
 activity#com.example.sadedira.flickermovies.MovieActivity
@@ -78,6 +78,7 @@ MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\saded
 MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\sadedira\.android\build-cache\6a19fea8c2932044e83eaa00b42a18cb007d95ba\output\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:support-compat:25.1.1] C:\Users\sadedira\.android\build-cache\e6b4f9da07464218c4ed0ae9a9aa73c1c6c86723\output\AndroidManifest.xml:21:5-23:58
 MERGED from [jp.wasabeef:picasso-transformations:2.1.0] C:\Users\sadedira\.android\build-cache\96d0bf1a0aca348eb5821f25dc666b4971fdca11\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\sadedira\.android\build-cache\42540bd227b4815c7fde0ca114e04efabb3636cf\output\AndroidManifest.xml:5:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.1.1] C:\Users\sadedira\.android\build-cache\6aff5c87f9a24508870da98bb2dbd5f82ed8e927\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

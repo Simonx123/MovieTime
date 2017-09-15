@@ -372,16 +372,16 @@ public class FlickerMoviesAdapter extends ArrayAdapter<Movie> {
                 viewHolder.overview.setText("");
                 viewHolder.title.setText(movie.getOriginalTitle());
                 viewHolder.overview.setText(movie.getOverview());
-                Picasso.with(getContext()).load(movie.getPosterPath()).placeholder(R.drawable.sync_loading).transform(new RoundedCornersTransformation(10, 10)).into(viewHolder.posterImage);
+                Picasso.with(getContext()).load(movie.getPosterPath()).placeholder(R.drawable.anim).transform(new RoundedCornersTransformation(10, 10)).into(viewHolder.posterImage);
             }else{
                 //viewHolder.posterImage.getLayoutParams().width = ViewGroup.LayoutParams.MATCH_PARENT;
                 viewHolder.title.setText(movie.getOriginalTitle());
-                Picasso.with(getContext()).load(movie.getBackDrop()).placeholder(R.drawable.sync_loading).transform(new RoundedCornersTransformation(10, 10)).into(viewHolder.posterImage);
+                Picasso.with(getContext()).load(movie.getBackDrop()).placeholder(R.drawable.place).transform(new RoundedCornersTransformation(10, 10)).into(viewHolder.posterImage);
             }
         } else if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
             viewHolder.title.setText("");
             viewHolder.overview.setText("");
-            Picasso.with(getContext()).load(movie.getBackDrop()).placeholder(R.drawable.sync_loading).transform(new RoundedCornersTransformation(10, 10)).into(viewHolder.posterImage);
+            Picasso.with(getContext()).load(movie.getBackDrop()).placeholder(R.drawable.place).transform(new RoundedCornersTransformation(10, 10)).into(viewHolder.posterImage);
             viewHolder.title.setText(movie.getOriginalTitle());
             viewHolder.overview.setText(movie.getOverview());
         }

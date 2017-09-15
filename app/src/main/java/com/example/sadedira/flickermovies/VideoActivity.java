@@ -19,6 +19,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import cz.msebera.android.httpclient.Header;
 
 import static android.R.attr.id;
@@ -30,14 +32,20 @@ import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
 
 public class VideoActivity  extends AppCompatActivity{
     String trailerId;
-    public View otherViews;
     private int position;
+
+    @BindView(R.id.mTitle) TextView title;
+    @BindView(R.id.mOverview) TextView overview;
+    @BindView(R.id.mReleaseDate) TextView releaseDate;
+    @BindView(R.id.ratingBar) RatingBar ratingbar;
+    @BindView(R.id.other_views) public View otherViews;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.video);
+        ButterKnife.bind(this);
 
        int position_get =  getIntent().getIntExtra("code", 0);
         if (position_get == 0){
@@ -48,11 +56,6 @@ public class VideoActivity  extends AppCompatActivity{
 
 
         otherViews = findViewById(R.id.other_views);
-
-        RatingBar ratingbar = (RatingBar)findViewById(R.id.ratingBar);
-        TextView title = (TextView) findViewById(R.id.mTitle);
-        TextView overview = (TextView) findViewById(R.id.mOverview);
-        TextView releaseDate = (TextView) findViewById(R.id.mReleaseDate);
 
         title.setText(getIntent().getStringExtra("title"));
         overview.setText(getIntent().getStringExtra("overview"));
