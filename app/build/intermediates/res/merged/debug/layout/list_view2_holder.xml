@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageframe"
+    android:background="#000000"
+    android:padding="0dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:src="@drawable/black_circle_loading"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:id="@+id/posterImage"
+/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/media_md" />
+
+    <TextView
+        android:id="@+id/mTitle"
+        style="@style/movies_list_title_popular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+</FrameLayout>
